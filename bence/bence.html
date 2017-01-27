@@ -27,14 +27,22 @@
             bubble.classList.remove('hide');
             container.classList.add('kitties');
             audio.play();
+            setTimeout(yeahFun, 1000)
         })
 
-        yeah.addEventListener('click', function() {
+        function yeahFun(){
             yeah.classList.add('hide');
             bubble.classList.add('hide');
             starter.classList.remove('hide');
-            container.classList.remove('kitties');
-        })
+            container.classList.remove('kitties')
+        }
+
+        // yeah.addEventListener('click', function() {
+        //     yeah.classList.add('hide');
+        //     bubble.classList.add('hide');
+        //     starter.classList.remove('hide');
+        //     container.classList.remove('kitties');
+        // })
     </script>
 </body>
 </html>
